@@ -52,9 +52,9 @@ const Navbar = (props) => {
             </nav>
         </div>
         <Routes>
-            <Route exact path='/cart' element={<CartList/>}/>
-            <Route exact path='/notice' element={<Notice/>}/>
-            <Route exact path='/signup' element= {<Signup/>}></Route>
+            <Route exact path='/Food_Delivery_App/cart' element={<CartList/>}/>
+            <Route exact path='/Food_Delivery_App/notice' element={<Notice/>}/>
+            <Route exact path='/Food_Delivery_App/signup' element= {<Signup/>}></Route>
         </Routes>
         </BrowserRouter>
     )

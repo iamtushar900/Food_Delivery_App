@@ -1,0 +1,64 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card {
+ justify-content: space-between;
+
+ background: rgb(233,103,177);
+ background: linear-gradient(90deg, rgba(233,103,177,1) 0%, rgba(121,9,120,1) 50%);
+  padding: 20px 30px;
+  border-bottom: 3px solid rgb(255, 47, 0);
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.pro{
+  width:20% ;
+  height:10% ;
+}
+#cartbtn{
+  background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+  border-style: inset;
+}
+#notice-text{
+  background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+   height: 100vh;
+   text-align: center;
+   font-size: 40px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: black;
+}
+.product-item {
+  padding: 20px;
+}
+button{
+  cursor: pointer;
+}
+#logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 600px){
+  .pro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 20%;
+    font-size: 0.5em;
+  }
+  #notice-text{
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 400px){
+  .pro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 20%;
+    font-size: 0.5em;
+  }
+}

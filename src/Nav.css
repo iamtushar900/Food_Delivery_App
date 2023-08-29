@@ -1,0 +1,11 @@
+.btns{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Black Ops One', cursive;
+}
+#logo{
+    margin-right: 20px;
+}
+
+.navbar-brand{
+   margin-right: 50px;
+}

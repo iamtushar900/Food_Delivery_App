@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+}
+
+p{
+    font-weight: bolder;
+}
+
+button{
+    background-color: rgb(83, 83, 239);
+    color: rgb(254, 254, 254);
+}
+.carousel-inner{
+    height: 50vh;
+}
+.carousel-inner img{
+    height: 60vh;
+}
+

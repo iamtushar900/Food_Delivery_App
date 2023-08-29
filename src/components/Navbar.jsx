@@ -17,7 +17,7 @@ const Navbar = (props) => {
   
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/Food_Delivery_App'>
         <div className='btns'>
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <a onClick={() => props.handleShow(false)} ><img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw5KDCQqIPJuRSLEnqLZN_Y3V9DBCWzGdEmA&usqp=CAU" alt="logo" />  </a>

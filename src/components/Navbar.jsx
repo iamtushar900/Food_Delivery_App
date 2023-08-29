@@ -32,14 +32,14 @@ const Navbar = (props) => {
 
                     <li className="nav-item">
                             
-                            <a onClick={() => props.handleShow(false)} className="btn btn-outline-dark" href="/Food_Delivery_App/home"><i className="fa-sharp fa-solid fa-circle-user"></i><AiFillHome/> Home</a></li>
+                            <a onClick={() => props.handleShow(false)} className="btn btn-outline-dark" href="/"><i className="fa-sharp fa-solid fa-circle-user"></i><AiFillHome/> Home</a></li>
 
                         <li className="nav-item">
                             
-                            <a className="btn btn-outline-dark" href="/Food_Delivery_App/signup"><i className="fa-sharp fa-solid fa-circle-user"></i><AiOutlineUserAdd/> Signup</a></li>
+                            <a className="btn btn-outline-dark" href="/Signup"><i className="fa-sharp fa-solid fa-circle-user"></i><AiOutlineUserAdd/> Signup</a></li>
                         <li className="nav-item">
                             
-                            <a className="btn btn-outline-dark" href="/Food_Delivery_App/notice"><i className="fa-sharp fa-solid fa-circle-user"></i><ImWarning/> Notice</a></li>
+                            <a className="btn btn-outline-dark" href="/Notice"><i className="fa-sharp fa-solid fa-circle-user"></i><ImWarning/> Notice</a></li>
 
                        
 
@@ -52,9 +52,9 @@ const Navbar = (props) => {
             </nav>
         </div>
         <Routes>
-            <Route exact path='/Food_Delivery_App/cart' element={<CartList/>}/>
-            <Route exact path='/Food_Delivery_App/notice' element={<Notice/>}/>
-            <Route exact path='/Food_Delivery_App/signup' element= {<Signup/>}></Route>
+            <Route exact path='/cart' element={<CartList/>}/>
+            <Route exact path='/notice' element={<Notice/>}/>
+            <Route exact path='/signup' element= {<Signup/>}></Route>
         </Routes>
         </BrowserRouter>
     )
